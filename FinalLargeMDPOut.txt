@@ -1,0 +1,234 @@
+Value Utility:
+{(3, 2): 0.922422910475041, (0, 0): 0.8741099834040095, (3, 0): 0.889970014337731, (0, 4): 0.936397340290485, (1, 4): 0.9517899661998422, (2, 3): 0.9504553583714643, (4, 2): 0.8819701586459076, (0, 3): 0.9227301839557592, (1, 0): 0.8877169607899125, (4, 0): 0.8783682229323906, (1, 2): 0.9181056583555113, (3, 1): 0.9067482462614141, (0, 2): 0.9100817926360971, (3, 3): 0.9397651866215466, (3, 4): 0.9810938043414865, (4, 4): 1.0, (2, 4): 0.965493437219483, (2, 0): 0.8763599548944263, (4, 3): 0.0, (2, 2): 0.9334726557836562, (4, 1): 0.8905304904897191, (1, 1): 0.9044612130801496}
+Value iteration num iterations: 48
+Value iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+[0.936397340290485, 0.9517899661998422, 0.965493437219483, 0.9810938043414865, 1.0]
+[0.9227301839557592, None, 0.9504553583714643, 0.9397651866215466, 0.0]
+[0.9100817926360971, 0.9181056583555113, 0.9334726557836562, 0.922422910475041, 0.8819701586459076]
+[None, 0.9044612130801496, None, 0.9067482462614141, 0.8905304904897191]
+[0.8741099834040095, 0.8877169607899125, 0.8763599548944263, 0.889970014337731, 0.8783682229323906]
+Value Iteration milliseconds: 25
+[[0.02468464 0.03701774 0.03506354 0.03678199]
+ [1.         1.         1.         1.        ]
+ [0.23092595 0.24259803 0.23704133 0.22752914]
+ [0.29825055 0.3124466  0.30575148 0.30367183]
+ [0.403708   0.41070606 0.40157515 0.40836414]
+ [0.05252257 0.05642054 0.05666155 0.05305552]
+ [0.10448368 0.10540023 0.10805454 0.10235028]
+ [0.19104571 0.19304656 0.18399476 0.18584297]
+ [1.         1.         1.         1.        ]
+ [0.58660085 0.58777997 0.56248911 0.58501896]
+ [0.09968332 0.1057272  0.09925614 0.10010729]
+ [1.         1.         1.         1.        ]
+ [0.32800253 0.33403545 0.33371498 0.32342998]
+ [0.56302632 0.56584346 0.56537158 0.55366608]
+ [0.83785059 0.94838753 0.84784736 0.84024351]
+ [0.18016214 0.18795513 0.18792645 0.18311355]
+ [0.31245409 0.31597603 0.32663696 0.30469411]
+ [0.54162011 0.54219032 0.55998244 0.54918105]
+ [0.87555778 0.86244    0.94999887 0.867359  ]
+ [0.959      1.59999999 1.         1.        ]
+ [0.25844549 0.24904659 0.25821627 0.26116034]
+ [0.36353318 0.35396921 0.37848899 0.3675012 ]
+ [0.6034085  0.56262765 0.60811022 0.59608882]
+ [1.         1.         1.         1.        ]
+ [1.         1.         1.         1.        ]]
+QLearning policy:
+['>', '>', '>', '>', '.']
+['>', '.', '>', '^', '.']
+['>', '>', '>', '^', '^']
+['.', '^', '.', '^', '^']
+['>', '^', '>', '>', 'v']
+QLearning num iters: 214
+
+
+Value Iteration for Gamma = 0.999
+Avg num iters: 48.0
+Avg num ms: 26.0
+Value iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+
+
+Value Iteration for Gamma = 0.99
+Avg num iters: 39.0
+Avg num ms: 20.0
+Value iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+
+
+Value Iteration for Gamma = 0.8
+Avg num iters: 18.0
+Avg num ms: 9.0
+Value iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '^', '.']
+['>', '>', '^', '^', '<']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+
+
+Value Iteration for Gamma = 0.5
+Avg num iters: 9.0
+Avg num ms: 4.0
+Value iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '^', '.']
+['>', '>', '^', '^', '<']
+[None, '^', None, '^', '^']
+['>', '^', '>', '^', '^']
+
+
+Value Iteration for Gamma = 0.2
+Avg num iters: 5.0
+Avg num ms: 2.0
+Value iteration policy:
+['>', '>', '>', '>', '.']
+['>', None, '^', '^', '.']
+['>', '>', '^', '^', '^']
+[None, '>', None, '^', '^']
+['>', '>', '>', '^', '^']
+Performing policy iteration with k=1
+Policy iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['>', '>', '^', '^', '<']
+[None, '^', None, '^', '<']
+['>', '>', '>', '^', '^']
+None
+Policy iteration avg num iters: 7.15
+Policy iteration avg milliseconds: 5.4
+
+
+Performing policy iteration with k=5
+Policy iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+None
+Policy iteration avg num iters: 6.0
+Policy iteration avg milliseconds: 7.3
+
+
+Performing policy iteration with k=10
+Policy iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+None
+Policy iteration avg num iters: 5.65
+Policy iteration avg milliseconds: 9.95
+
+
+Performing policy iteration with k=15
+Policy iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+None
+Policy iteration avg num iters: 5.8
+Policy iteration avg milliseconds: 14.35
+
+
+Performing policy iteration with k=20
+Policy iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+None
+Policy iteration avg num iters: 5.75
+Policy iteration avg milliseconds: 18.05
+
+
+Performing policy iteration with k=50
+Policy iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+None
+Policy iteration avg num iters: 5.6
+Policy iteration avg milliseconds: 40.45
+
+
+Performing policy iteration with k=100
+Policy iteration policy:
+['>', '>', '>', '>', '.']
+['^', None, '^', '<', '.']
+['^', '>', '^', '^', 'v']
+[None, '^', None, '^', '<']
+['>', '^', '>', '^', '^']
+None
+Policy iteration avg num iters: 5.85
+Policy iteration avg milliseconds: 72.7
+
+
+Name: First
+Best policy found 95 times
+Average number of iterations: 213.14
+Average number of milliseconds: 28.8
+
+
+Name: Second
+Best policy found 90 times
+Average number of iterations: 115.94
+Average number of milliseconds: 15.48
+
+
+Name: Third
+Best policy found 89 times
+Average number of iterations: 29.37
+Average number of milliseconds: 4.64
+
+
+Name: Fourth
+Best policy found 57 times
+Average number of iterations: 154.38
+Average number of milliseconds: 25.36
+
+
+Name: Fifth
+Best policy found 99 times
+Average number of iterations: 127.97
+Average number of milliseconds: 16.04
+
+
+Name: Sixth
+Best policy found 51 times
+Average number of iterations: 92.57
+Average number of milliseconds: 12.75
+
+
+Name: Best
+Best policy found 100 times
+Average number of iterations: 145.84
+Average number of milliseconds: 17.25
+
+
+Name: Best2
+Best policy found 100 times
+Average number of iterations: 92.74
+Average number of milliseconds: 10.75
+
+
